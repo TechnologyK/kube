@@ -1,3 +1,23 @@
 site_name: Kube
-theme: 
+theme:
   name: material
+  palette:
+    # Palette toggle for light mode
+    - scheme: default
+      primary: green
+      accent: green
+      toggle:
+        icon: material/brightness-7
+        name: 切换到深色模式
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      primary: deep purple
+      accent: deep purple
+      toggle:
+        icon: material/brightness-4
+        name: 切换到浅色模式
+  logo: assets/logo.svg
+  favicon: images/favicon.svg
+
+  language: zh
